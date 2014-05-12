@@ -18,3 +18,5 @@ If you want you can add this code to you `keymap.cson` to add a shortcut.
 
     '.editor':
       'f5': 'format:sql'
+
+![format-sql-screenshot](https://cloud.githubusercontent.com/assets/7937/2948422/e7c4cdec-da01-11e3-832d-340c15f5b358.gif)
