@@ -1,0 +1,8 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Format SQL', 'command': 'format:sql'
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "format-sql",
+  "main": "./lib/format-sql",
+  "version": "0.0.0",
+  "description": "Format SQL Statement",
+  "activationEvents": [
+    "format:sql"
+  ],
+  "repository": "https://github.com/AbeEstrada/atom-format-sql",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "sql-parser": "^0.4.0"
+  }
+}
