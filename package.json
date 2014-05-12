@@ -1,7 +1,7 @@
 {
   "name": "format-sql",
   "main": "./lib/format-sql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Format SQL Statement",
   "activationEvents": [
     "format:sql"
