@@ -7,7 +7,7 @@ module.exports =
         formatSql()
 
 formatSql = ->
-  editor = atom.workspace.getActiveEditor()
+  editor = atom.workspace.getActiveTextEditor()
   return unless editor?
 
   sql ?= require 'sql-parser'
