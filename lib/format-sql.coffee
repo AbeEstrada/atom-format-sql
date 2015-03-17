@@ -3,8 +3,8 @@ sql = null
 module.exports =
   activate: (state) ->
     atom.commands.add 'atom-workspace',
-			'format:sql': ->
-     		formatSql()
+      'format:sql': ->
+        formatSql()
 
 formatSql = ->
   editor = atom.workspace.getActiveEditor()
