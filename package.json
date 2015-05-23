@@ -3,13 +3,13 @@
   "main": "./lib/format-sql",
   "version": "0.2.0",
   "description": "Format SQL Statement",
-  "activationEvents": [
-    "format:sql"
-  ],
+  "activationCommands": {
+    "atom-text-editor": ["format:sql"]
+  },
   "repository": "https://github.com/AbeEstrada/atom-format-sql",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">0.50.0 <2.0.0"
   },
   "dependencies": {
     "sql-parser": "^0.4.0"
