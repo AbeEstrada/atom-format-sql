@@ -1,10 +1,12 @@
 {
   "name": "format-sql",
   "main": "./lib/format-sql",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Format SQL Statement",
   "activationCommands": {
-    "atom-text-editor": ["format:sql"]
+    "atom-text-editor": [
+      "format:sql"
+    ]
   },
   "repository": "https://github.com/AbeEstrada/atom-format-sql",
   "license": "MIT",
